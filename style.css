@@ -1,0 +1,100 @@
+body{
+    background-image: url(https://wallpapers-hub.art/wallpaper-images/200896.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#searchHero{
+    display: block;
+    width: 53%;
+    height: 3rem;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    padding-left: 2%;
+    background-color: rgb(196, 191, 191);
+
+}
+#main-heading{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(44, 35, 35);
+    background-image: linear-gradient(to top right, #563a3a, #872fa8, #4e4236);
+    opacity: 0.8;
+    padding: 10px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.image-size{
+    width: 70px;
+    height: 70px;
+    margin-left: 2rem;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 2px solid rgb(194, 97, 97);
+    border-radius: 14px 14px 14px 14px;
+    overflow: scroll;
+    height: 60vh;
+    width: 40%;
+    margin: 0 auto;
+    opacity: 0.9;
+    background-image: linear-gradient(to top right, #a79a9a, #443c46, #ce7b28);
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+ul li{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    
+    
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 6rem;
+    outline: none;
+    border: none;
+    background-color: brown;
+    color: rgb(254, 241, 241);
+}
+#delFav{
+    color: red;
+    font-size: 25px;
+}
+#delFav:hover{
+    cursor:pointer;
+}
+#addFav:hover{
+    cursor:pointer;
+}
+#addFav{
+    font-size: 25px;
+    color: rgb(197, 184, 184);
+}
+.search-item a{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+   
+}
+
+a{
+    color: rgb(247, 6, 42);
+    display: flex;
+    justify-content: center;
+
+}

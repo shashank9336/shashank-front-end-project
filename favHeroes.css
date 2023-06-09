@@ -1,0 +1,65 @@
+body{
+    background-image: linear-gradient(to top right, #ff0101, #872fa8, #dc7f21);
+
+    background-size:cover;
+}
+
+#fav-hero-container{
+    border: 2px solid rgb(199, 188, 188);
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.favImage{
+    width: 200px;
+    height: 200px;
+    border: solid 2px red;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1rem;
+    display: block;
+    width: 19rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+#fav-hero-container div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#fav-hero-container div button{
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+}
+
+#fav-hero-container div button:hover{
+    box-shadow: rgb(143, 132, 153) 1px 1px 5px 1px;
+}
+
+div a{
+    font-size: 1rem;
+    text-decoration: none;
+    display: block;
+    width: 11.5rem;
+    margin: 0 auto;
+}
+.removeFav{
+    background-color: rgb(155, 125, 149);
+    font-size: larger;
+    font-weight: 700;
+    color: rgb(35, 5, 63);
+    padding: 10px;
+    border: 1px solid rgb(151, 98, 98);
+    border-radius: 50%;
+}
+.removeFav:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 8px 8px gray;
+}
